@@ -1334,3 +1334,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.citsensorservice@1.1-service \
     DaxUI \
     daxService
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/redwood/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_m20.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_m20.bin \
+    vendor/xiaomi/redwood/proprietary/recovery/root/vendor/firmware/goodix_cfg_group_m20.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix_cfg_group_m20.bin \
+    vendor/xiaomi/redwood/proprietary/recovery/root/vendor/firmware/goodix_firmware_m20.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix_firmware_m20.bin
